@@ -1,0 +1,29 @@
+{
+  "name": "map",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "^0.51.0",
+    "react-native-map-clustering": "^1.2.8",
+    "react-native-map-markerclustering": "^1.0.10",
+    "react-native-maps": "^0.18.3",
+    "react-native-maps-super-cluster": "^1.1.1",
+    "react-native-navigation": "^1.1.315",
+    "react-native-pulse": "^1.0.6",
+    "react-native-pulse-loader": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
